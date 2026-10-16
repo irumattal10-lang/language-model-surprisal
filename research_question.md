@@ -16,3 +16,9 @@ Is higher word surprisal associated with longer human reading times?
 2. Calculate surprisal using -log2(probability).
 3. Compare surprisal values with human reading times.
 4. Visualize and statistically analyse the relationship.
+   
+## Variables
+
+- **Predictor:** word surprisal, measured in bits.
+- **Outcome:** human reading time, measured in milliseconds.
+- **Research hypothesis:** higher surprisal is associated with longer reading times.
