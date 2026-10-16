@@ -22,3 +22,10 @@ Is higher word surprisal associated with longer human reading times?
 - **Predictor:** word surprisal, measured in bits.
 - **Outcome:** human reading time, measured in milliseconds.
 - **Research hypothesis:** higher surprisal is associated with longer reading times.
+
+## Planned implementation
+
+- Use Python to load a pretrained language model.
+- Extract the probability of each target token given its preceding context.
+- Convert probability to surprisal using -log2(probability).
+- Compare surprisal with human reading-time data.
